@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CustomAlertDialog"
 include ':app'
-include ':CustomAlertDialog'
+include ':CustomAlert'
