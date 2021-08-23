@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
 //        customToast cumtom = new customToast();
 
          findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
