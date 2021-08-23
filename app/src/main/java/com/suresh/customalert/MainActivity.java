@@ -12,12 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        customToast cumtom = new customToast();
+        CustomToast cumtom = new CustomToast();
 
          findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                cumtom.customToast(getApplicationContext(),"hello click");
             }
         });
 
